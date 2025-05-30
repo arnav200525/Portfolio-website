@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="left">
+      <a href="/">Arnav Deore</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/arnav200525" target="_blank" rel="">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/arnav-deore-7949882b5/" target="_blank" rel="">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+
+      <a href="xyz@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Arnav <span class="icon">&lt;/&gt;</span> </h2>
+        <p>A third-year BBA(CA) student with a strong passion for coding and programming. I love learning new
+          programming languages and have a deep interest in artificial intelligence. As a research enthusiast, I enjoy
+          exploring emerging technologies and continuously sharpening my technical skills to stay ahead in this
+          fast-evolving field.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#project">
+            <i class="fa-solid fa-list-check"></i>
+            <span>Projects</span>
+          </a>
+
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/one.jpg" alt="">
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        With a passion for coding, I have honed my skills in several programming languages and frameworks. The following
+        icons showcase my proficiency in key languages that cover both front-end design and back-end development,
+        allowing me to build full-stack applications.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="">
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="">
+          <span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/php.png" alt="">
+          <span>php</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/Python-logo-.png" alt="">
+          <span>Python</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/sql-1.png" alt="">
+          <span>SQL</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/bootstrap.png" alt="">
+          <span>Bootstrap</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="project-section">
+      <h2>Projects</h2>
+      <div class="text">Below is a section of my recent projects, I’ve gained hands-on experience while working on these
+        and learned how to turn ideas into functional, user-friendly applications.</div>
+
+  <div class="scroll-wrapper">
+    <div class="scroll-container">
+      <div class="card">
+        <span class="card-title">Student Portal</span>
+        <span>
+          Student Portal is a web-based application designed to help students manage academic activities like
+          registration, profile viewing, and task tracking...
+        </span>
+      </div>
+      <div class="card">
+        <span class="card-title">Restaurant Site</span>
+        <span>
+          A frontend-only restaurant site with HTML, CSS & JS offering a professional UI for a fictional business...
+        </span>
+      </div>
+      <div class="card">
+        <span class="card-title">SLayy The Resume</span>
+        <span>
+          A resume builder with customizable templates made using HTML, CSS, and JavaScript...
+        </span>
+      </div>
+      <div class="card">
+        <span class="card-title">Weather App</span>
+        <span>
+          A web app that fetches real-time weather data via API for any city...
+        </span>
+      </div>
+      <div class="card">
+        <span class="card-title">Netflix Clone</span>
+        <span>
+          A responsive static clone of Netflix’s homepage using HTML and CSS...
+        </span>
+      </div>
+    </div>
+  </div>
+      
+
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+       
+
+        <form>
+          <label for="">Name</label>
+          <input type="text" id="">
+
+          <label for="">Email</label>
+          <input type="email" id="">
+
+          <label for="">Phone no</label>
+          <input type="number" id="">
+          
+          <label for="">Message</label>
+          <textarea id="" cols="10" rows="10"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
